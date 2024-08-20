@@ -18,7 +18,8 @@ class LessonSerializer(serializers.ModelSerializer):
         fields = (
             'title',
             'link',
-            'course'
+            'course',
+
         )
 
 
